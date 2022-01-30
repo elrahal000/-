@@ -1,0 +1,575 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f2f2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI', Tahom', Verdana;
+}
+
+.contuner{
+    width: 95%;
+    margin: 3px auto;
+}
+
+/*Start Style*/
+/*Phones Sceern*/
+
+/*Start Navigation*/
+
+header .contuner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .contuner h1{
+    color: #0459a9;
+    font-size: 1.5em;
+}
+header .contuner h1 span{
+    color: #e58784;
+    font-size: 0.7em;
+}
+header .contuner .btn-nav input{
+    margin: 4px;
+    padding: 3px 10px;
+    color: #0459a9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+header .contuner .btn-nav #btn-nav-log{
+    background-color: #0459a9;
+    color: white;
+}
+/*End Navigation*/
+
+/*Start Header*/
+
+header .say-hi{
+    min-width: 100%;
+    height: 350px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: no-repeat url(../images/head.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .say-hi .say-hi-one{
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 40%;
+    color: #0459a9;
+}
+header .say-hi .say-hi-one p{
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+header .say-hi .say-hi-two{
+    position: absolute;
+    top: 90%;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    background-color: #e58784;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+header .say-hi .say-hi-two input{
+    width: 75%;
+    padding: 8px 15px;
+    font-size: x-small;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 0px 10px 10px 0px;
+    -ms-border-radius: 0px 10px 10px 0px;
+    -o-border-radius: 0px 10px 10px 0px;
+}
+header .say-hi .say-hi-two .sup-seaach-btn{
+    width: 23%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    
+}
+header .say-hi .say-hi-two .sup-seaach-btn p{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+header .end-of-header{
+    text-align: center;
+    margin: 20px;
+    color: #0459a9;
+}
+header .end-of-header h3{
+    font-weight: lighter;
+    font-family: fantasy;
+    word-spacing: 3px;
+    margin-bottom: 10px;
+
+}
+header .end-of-header h3 span{
+    font-weight: 800;
+}
+
+/*End Header*/
+
+/*div of "الاكثر مشاهدة اليوم/اختار التخصص"*/
+.sect-vedio-top {
+    background-color: white;
+}
+.sect-vedio-top .contuner{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+
+}
+.sect-vedio-top .contuner p{
+    color: #385f7e;
+}
+.sect-vedio-top .contuner select{
+    outline: none;
+    border: none;
+    padding: 3px 6px;
+    background-color: #0459a9;
+    color: white;
+    cursor: pointer;
+}
+
+/*Start Section Of Vedio*/
+
+.sect-video{
+    margin: 30px 0 ;
+}
+.sect-video .contuner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sect-video .contuner .div-video{
+    background-color: white;
+}
+.sect-video .contuner .div-video video{
+    width: 100%;
+    min-height: 100%;
+    cursor: pointer;
+}
+.sect-video .contuner .div-video p{
+    color: #0459a9;
+    font-weight: lighter;
+    padding-top: 13px;
+    padding-bottom: 25px;
+}
+
+/*End Section Of Vedio*/
+
+/*Start-section-of-login*/
+
+.login{
+    margin: 40px 0;
+    height: 150px;
+}
+.login .contuner{
+    text-align: center;
+    background: url(../images/heade2.jpg) no-repeat;
+    background-size: covera;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.login .contuner h1{
+    color: white;
+    margin-bottom: 18px;
+    word-spacing: 6px;
+    font-size: x-large;
+}
+.login .contuner p{
+    color: white;
+    margin-bottom: 18px;
+    
+}
+.login .contuner input{
+    border: none;
+    outline: none;
+    padding: 6px 13px;
+    background-color: tomato;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/*End-section-of-login*/
+
+/*Start-Secttion-Of-Doctors*/
+
+.Doctors{
+    margin: 40px 0;
+}
+.Doctors .contuner{
+    display: flex;
+    justify-content: space-between;
+}
+.Doctors .contuner .min-doc{
+    width: 23%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.Doctors .contuner .min-doc img{
+    max-width: 80%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.Doctors .contuner .min-doc p{
+    font-size: 1.1em;
+    padding-top: 20px;
+    color: #0459a9;
+}
+
+/*End-Secttion-Of-Doctors*/
+
+/*Start-Section-Of-Advertisement*/
+
+.advertisement{
+    height: 170px;
+
+}
+.advertisement .contuner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-color: #0459a9;
+    color: white;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+/*End-Section-Of-Advertisement*/
+
+/*Start-Footer*/
+
+footer{
+    background-color: white;
+    height: 500px;
+    margin-top: 40px;
+}
+footer .contuner{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+footer .contuner div{
+    text-align: right;
+    padding: 10px;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+footer .contuner div h2{
+    color: #0459a9;
+}
+footer .contuner div p{
+    padding-top: 18px;
+    line-height: 26px;
+    font-size: 1.1em;
+}
+footer .contuner div a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 18px;
+    font-size: 1.1em;
+    color: black;
+}
+footer .contuner div a:hover{
+    color: #0459a9;
+}
+footer .contuner div .middel{
+    margin-bottom: 18px;
+    color: #e58784;
+    font-size: 33px;
+    font-weight: bolder;
+}
+footer .contuner div .middel span{
+    color: #0459a9;
+}
+
+/*End-Footer*/
+
+/*Taplets Screen*/
+@media screen and (min-width: 701px) and (max-width: 999px) {
+    .contuner{
+        width: 80%;
+        padding: 10px 0;
+    }
+    .contuner .btn-nav input{
+        padding: 6px 17px;
+    }
+    header .say-hi{
+        height: 550px;
+    }
+    header .say-hi .say-hi-one p{
+        font-size: 1.2em;
+    }
+    header .say-hi .say-hi-two{
+        top: 60%;
+        width: 380px;
+    }
+    header .say-hi .say-hi-two input{
+        font-size: 13px;
+    }
+    header .end-of-header{
+        margin: 60px;
+        font-size: large;
+    }
+    .sect-vedio-top .contuner p{
+        font-size: 1.3em;
+    }
+    .sect-vedio-top .contuner select{
+        font-size: 1em;
+    }
+    .sect-video{
+        background-color: white;
+        margin: 50px 0 ;
+    }
+    .sect-video .contuner{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .sect-video .contuner .div-video{
+        width: 22%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+
+    }
+    .sect-video .contuner .div-video p{
+        margin-top: 7px;
+        color: #0459a9;
+        font-weight: bold;
+    }
+    .login{
+    margin-bottom: 50px;
+    margin-top: 110px;
+    height: 200px;
+    }
+    .login .contuner input{
+        font-size: large;
+    }
+    footer{
+        height: 300px;
+    }
+    footer .contuner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer .contuner div{
+        width: 32%;
+    }
+}
+
+/*Laptops Screen*/
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .contuner{
+        width: 85%;
+        padding: 10px 0;
+    }
+    .contuner .btn-nav input{
+        font-size: 16px;
+    }
+        header .contuner h1{
+    font-size: 1.5em;
+    }
+    header .contuner h1 span{
+    font-size: 1em;
+    }
+    header .say-hi{
+        height: 650px;
+    }
+    header .say-hi .say-hi-one p{
+        font-size: 1.2em;
+    }
+    header .say-hi .say-hi-two{
+        top: 60%;
+        width: 450px;
+    }
+    header .say-hi .say-hi-two input{
+        width: 75%;
+        padding: 8px 15px;
+        font-size: small;
+        font-weight: 550;
+    }
+    header .end-of-header{
+        margin: 60px;
+        font-size: x-large;
+    }
+    .sect-vedio-top .contuner p{
+        font-size: 1.3em;
+    }
+    .sect-vedio-top .contuner select{
+        font-size: 1em;
+    }
+    .sect-video{
+        margin: 60px 0 ;
+    }
+    .sect-video .contuner{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .sect-video .contuner .div-video{
+        width: 23%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    .sect-video .contuner .div-video p{
+        font-weight: bold;
+    }
+    .login{
+    margin-bottom: 60px;
+    margin-top: 100px;
+    height: 200px;
+    }
+    .login .contuner input{
+        font-size: large;
+    }
+    footer{
+    height: 300px;
+    }
+    footer .contuner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    footer .contuner div{
+    width: 32%;
+    }
+}
+
+/*Pc Screen*/
+@media screen and (min-width: 1201px) and (max-width: 1700px) {
+    .contuner{
+        width: 85%;
+        padding: 7px 0;
+    }
+    .contuner .btn-nav input{
+        padding: 7px 20px;
+        font-size: 1em;
+    }
+    header .contuner h1{
+    font-size: 1.7em;
+    }
+    header .contuner h1 span{
+    font-size: 1em;
+    }
+    header .say-hi{
+    height: 800px;
+    }
+    header .say-hi .say-hi-one h1{
+        font-size: 2.9em;
+        margin-bottom: 20px;
+    }
+    header .say-hi .say-hi-one p{
+        font-size: 1.4em;
+    }
+    header .say-hi .say-hi-two{
+        top: 55%;
+        width: 500px;
+    }
+    header .say-hi .say-hi-two input{
+        width: 75%;
+        padding: 8px 20px;
+        font-size: small;
+        font-weight: 600;
+    }
+    header .end-of-header{
+        margin: 80px;
+        font-size: x-large;
+    }
+    .sect-vedio-top .contuner p{
+        font-size: 1.4em;
+    }
+    .sect-vedio-top .contuner select{
+        font-size: 1em;
+    }
+    .sect-video{
+        margin: 60px 0 ;
+    }
+    .sect-video .contuner{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .sect-video .contuner .div-video{
+        width: 23%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    .sect-video .contuner .div-video p{
+        font-weight: bold;
+    }
+    .login{
+    margin-bottom: 90px;
+    margin-top: 100px;
+    height: 200px;
+    }
+    .login .contuner input{
+        font-size: large;
+    }
+    .login .contuner h1{
+    font-size: 2.2em;
+    }
+    .login .contuner p{
+    font-size: 1.2em;
+    }
+    footer{
+    height: 300px;
+    }
+    footer .contuner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    footer .contuner div{
+    width: 32%;
+    }
+}
